@@ -1,0 +1,139 @@
+header {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(120, 181, 120);
+    color: black;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: right;
+    flex: 1;
+}
+
+
+.logotyp{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1687/1687737.png');
+}
+
+
+.logotypelight {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1687/1687788.png') !important;
+}
+
+
+body {
+    background-color: rgb(189, 221, 189);
+}
+
+
+a {
+    color:black;
+}
+
+p {
+    
+    border: 50px;
+    text-align: center;
+    background-color: rgb(189, 221, 189); 
+}
+
+.rea {
+    text-decoration: underline;
+}
+
+ul {
+    font-size: larger;
+    width: 100%;
+    margin-right: 25px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+   height: 400px; 
+   width: auto;
+   display: flex;
+   flex-direction: row;
+   padding: 25px;
+}
+
+/* HÄR BÖRJAR KONTAKTSIDAN */
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.formkontakt{
+    text-decoration: underline;
+}
+
+.textinfo {
+    align-items: center; 
+    margin-top: 25px;
+}
+
+.bilder {
+    display: flex;
+    justify-content: center;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    background-color: rgb(80, 130, 80);
+    border: solid rgb(80, 130, 80) 2px; 
+}
+
+.btn.btn-primary{
+    background-color: rgb(80, 130, 80);
+    border: solid rgb(80, 130, 80) 2px;
+}
+
+.form {
+    padding: 20px;
+}
+
+.dark {
+    color: white;
+    background-color: #123912;
+}
+
+.header-dark {
+    background-color: #123912;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .bilder {
+        flex-direction: column;
+    }
+    .information {
+        flex-direction: column;
+    }
+
+}
